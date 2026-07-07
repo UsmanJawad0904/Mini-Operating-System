@@ -1,0 +1,418 @@
+{
+  "device_id": "aa4c66e7",
+  "name": "My MiniOS Device",
+  "memory_size": 2048,
+  "storage_size": 8192,
+  "cpu_cores": 2,
+  "created_date": "2026-05-06T15:53:09.365072",
+  "last_used": "2026-05-20T08:37:18.388056",
+  "memory_blocks": [
+    {
+      "size": 204,
+      "allocated": "P6(70)",
+      "fragmentation": 134
+    },
+    {
+      "size": 256,
+      "allocated": "P5(90)",
+      "fragmentation": 166
+    },
+    {
+      "size": 341,
+      "allocated": "P4(180)",
+      "fragmentation": 161
+    },
+    {
+      "size": 409,
+      "allocated": "P3(50)",
+      "fragmentation": 359
+    },
+    {
+      "size": 512,
+      "allocated": "P2(120)",
+      "fragmentation": 392
+    },
+    {
+      "size": 682,
+      "allocated": "P1(80)",
+      "fragmentation": 602
+    }
+  ],
+  "processes": [
+    {
+      "name": "P1",
+      "arrival": 0,
+      "burst": 6,
+      "priority": 2
+    },
+    {
+      "name": "P2",
+      "arrival": 1,
+      "burst": 4,
+      "priority": 1
+    },
+    {
+      "name": "P3",
+      "arrival": 2,
+      "burst": 2,
+      "priority": 3
+    },
+    {
+      "name": "P4",
+      "arrival": 3,
+      "burst": 5,
+      "priority": 2
+    }
+  ],
+  "file_system": {
+    "root": {
+      "type": "folder",
+      "size": 4096,
+      "children": {
+        "imran": {
+          "type": "folder",
+          "children": {
+            "j": {
+              "type": "file",
+              "size": 2048,
+              "content": "New file j",
+              "created": "2026-05-06T15:53:44.216623"
+            },
+            "hello": {
+              "type": "file",
+              "size": 2097152,
+              "content": "New file hello",
+              "created": "2026-05-15T09:18:16.784383"
+            }
+          },
+          "created": "2026-05-06T15:53:25.659782",
+          "size": 4096
+        }
+      },
+      "created": "2026-05-06T15:53:09.365072"
+    }
+  },
+  "scheduling_history": [
+    {
+      "timestamp": "2026-05-06T15:54:02.151447",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:15:22.998280",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:15:25.322169",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:18:23.897894",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:21:24.645705",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:21:32.196586",
+      "algorithm": "FCFS",
+      "process_count": 0
+    },
+    {
+      "timestamp": "2026-05-15T09:21:34.352410",
+      "algorithm": "FCFS",
+      "process_count": 0
+    },
+    {
+      "timestamp": "2026-05-15T09:21:51.346054",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:22:04.021110",
+      "algorithm": "FCFS",
+      "process_count": 8
+    },
+    {
+      "timestamp": "2026-05-15T09:22:11.483144",
+      "algorithm": "FCFS",
+      "process_count": 8
+    },
+    {
+      "timestamp": "2026-05-15T09:22:12.714126",
+      "algorithm": "FCFS",
+      "process_count": 8
+    },
+    {
+      "timestamp": "2026-05-15T09:22:14.429606",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:32:53.199317",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:33:08.013364",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:11.247992",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:11.870508",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:12.038356",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:12.186678",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:12.342632",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:12.490023",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:12.638523",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:12.858082",
+      "algorithm": "FCFS",
+      "process_count": 9
+    },
+    {
+      "timestamp": "2026-05-15T09:33:14.515389",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:34:07.484035",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:34:13.335540",
+      "algorithm": "FCFS",
+      "process_count": 0
+    },
+    {
+      "timestamp": "2026-05-15T09:34:26.601310",
+      "algorithm": "FCFS",
+      "process_count": 1
+    },
+    {
+      "timestamp": "2026-05-15T09:34:32.086595",
+      "algorithm": "FCFS",
+      "process_count": 1
+    },
+    {
+      "timestamp": "2026-05-15T09:34:43.204718",
+      "algorithm": "FCFS",
+      "process_count": 1
+    },
+    {
+      "timestamp": "2026-05-15T09:34:43.880729",
+      "algorithm": "FCFS",
+      "process_count": 1
+    },
+    {
+      "timestamp": "2026-05-15T09:34:44.104820",
+      "algorithm": "FCFS",
+      "process_count": 1
+    },
+    {
+      "timestamp": "2026-05-15T09:34:48.494553",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-15T09:34:52.146247",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-19T12:47:36.912482",
+      "algorithm": "FCFS",
+      "process_count": 4
+    },
+    {
+      "timestamp": "2026-05-19T12:47:42.900722",
+      "algorithm": "FCFS",
+      "process_count": 8
+    },
+    {
+      "timestamp": "2026-05-20T08:37:18.387176",
+      "algorithm": "FCFS",
+      "process_count": 4
+    }
+  ],
+  "command_history": [
+    "pwd",
+    "pwd",
+    "ls",
+    "cd imran",
+    "pwd",
+    "help",
+    "minios",
+    "ls",
+    "cat hello",
+    "pwd"
+  ],
+  "current_directory": "root/imran",
+  "settings": {
+    "theme": "dark",
+    "default_scheduler": "FCFS",
+    "auto_save": true
+  },
+  "extra_state": {
+    "scheduler_state": {
+      "algorithm": "FCFS",
+      "quantum": "2",
+      "last_results": ""
+    },
+    "advanced_features_state": {
+      "process_count": 17,
+      "processes_data": [],
+      "scheduler": "Priority",
+      "quantum": "4",
+      "avg_burst": "0.0ms",
+      "avg_memory": "0MB",
+      "cpu_load": "1%",
+      "performance_score": 99.7
+    },
+    "process_manager_state": {
+      "processes": [
+        {
+          "pid": "ed46075b",
+          "name": "p1",
+          "priority": 5,
+          "memory_required": 512,
+          "owner": "root",
+          "state": "Terminated",
+          "created_at": "2026-05-15T09:26:40.543393",
+          "started_at": null,
+          "ended_at": "2026-05-15T09:27:05.128114",
+          "cpu_time": 0,
+          "io_operations": 0,
+          "page_faults": 0,
+          "parent_pid": null,
+          "children_pids": [],
+          "nice_value": 0,
+          "cpu_usage": 0.0,
+          "memory_usage": 0.0,
+          "threads": 1,
+          "scheduling_policy": "SCHED_OTHER",
+          "resource_limits": {
+            "cpu_time": null,
+            "memory": null,
+            "file_descriptors": 1024,
+            "processes": 1024
+          }
+        }
+      ],
+      "scheduling_algorithm": "FCFS",
+      "quantum": 100
+    },
+    "ipc_state": {
+      "pipes": [
+        {
+          "name": "pipe1",
+          "owner_pid": "P1",
+          "messages_sent": 2,
+          "messages_received": 1,
+          "buffer": [
+            {
+              "data": "hello kesy ho?",
+              "timestamp": "2026-05-15T09:29:17.247364",
+              "sender": "P3"
+            }
+          ]
+        },
+        {
+          "name": "pipe2",
+          "owner_pid": "P1",
+          "messages_sent": 0,
+          "messages_received": 0,
+          "buffer": []
+        },
+        {
+          "name": "pipe3",
+          "owner_pid": "P3",
+          "messages_sent": 0,
+          "messages_received": 0,
+          "buffer": []
+        }
+      ],
+      "message_queues": [],
+      "shared_memory": []
+    },
+    "system_logs": {
+      "logs": [
+        {
+          "timestamp": "2026-05-15T09:29:44.181423",
+          "level": "DEBUG",
+          "facility": "NETWORK",
+          "message": "Packet sent to interface eth0",
+          "pid": "proc_7157",
+          "user": "root"
+        },
+        {
+          "timestamp": "2026-05-15T09:29:45.038523",
+          "level": "INFO",
+          "facility": "PROCESS",
+          "message": "New process spawned",
+          "pid": "proc_6723",
+          "user": "root"
+        },
+        {
+          "timestamp": "2026-05-15T09:29:48.743932",
+          "level": "INFO",
+          "facility": "KERNEL",
+          "message": "System heartbeat",
+          "pid": "proc_8618",
+          "user": "root"
+        },
+        {
+          "timestamp": "2026-05-15T09:29:49.491863",
+          "level": "DEBUG",
+          "facility": "NETWORK",
+          "message": "Packet sent to interface eth0",
+          "pid": "proc_8242",
+          "user": "root"
+        },
+        {
+          "timestamp": "2026-05-15T09:29:49.960011",
+          "level": "INFO",
+          "facility": "PROCESS",
+          "message": "New process spawned",
+          "pid": "proc_7733",
+          "user": "root"
+        }
+      ],
+      "max_entries": 10000
+    }
+  }
+}
