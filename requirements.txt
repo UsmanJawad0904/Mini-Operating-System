@@ -1,0 +1,9 @@
+# MiniOS runtime dependencies
+# tkinter is included with most Python installations on Windows/macOS.
+# On Linux, install python3-tk separately if Tkinter is missing.
+
+matplotlib>=3.5.0
+numpy>=1.21.0
+psutil>=5.8.0
+paramiko>=3.0.0
+colorama>=0.4.6
