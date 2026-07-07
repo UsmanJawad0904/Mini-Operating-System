@@ -1,0 +1,6 @@
+# Optional development/test tools
+pytest>=6.2.0
+pytest-cov>=2.12.0
+black>=21.0
+pylint>=2.8.0
+flake8>=3.9.0
